@@ -112,6 +112,7 @@
   /* mobile navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 99;
   }
 
   .main-nav {
@@ -198,7 +199,7 @@
   }
 }
 
-/* below 544px (phone) */
+/* below 544px (mobile) */
 
 @media (max-width: 34em) {
   .grid {
